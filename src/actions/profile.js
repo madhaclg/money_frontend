@@ -1,6 +1,6 @@
 import axios from "axios";
 import { PROFILES_LOADED, PROFILES_ERROR, HISTORY_LOADED, HISTORY_ERROR, TRANSFER_SUCCESS, TRANSFER_ERROR } from "./types";
-
+const Url="https://money-ewvr.onrender.com"
 export const loadProfile = () => async dispatch => {
     try {
         const res = await axios.get(`${Url}/api/allUsers`)
