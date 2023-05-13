@@ -53,7 +53,7 @@ export const transfer = ({ From, To, amount }, history) => async dispatch => {
             payload: { msg: "error.response.statusText", status: "error.response.status" }
 
         })
-        console.log(dispatch);
+//         console.log(dispatch);
     }
 
 }
